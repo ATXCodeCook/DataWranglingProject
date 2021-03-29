@@ -7,10 +7,9 @@ File Descriptions and Layout of Files:
 **Updates and Changes from Previous Submission** 03/17/21
 
 All the three audit files in the module folder are scripts with **data\\round_rock_sample.xml as the default**.
-    The **audits.py** script file will run all audit functions.
+The **audits.py** script file will run all audit functions.
 
-**data.py to a script file** uses **data\\round_rock_sample.xml as the default** with
-    **validate set to false**.
+**data.py to a script file** uses **data\\round_rock_sample.xml as the default** with **validate set to false**.
 
 **audits.py** holds all auditing functions and can be run as a script file.
 
@@ -18,24 +17,21 @@ All the three audit files in the module folder are scripts with **data\\round_ro
 
 **converted the Python 2 code to Python 3**
 Changes are: 
-    - changed the open() calls to with open(), 
-    - the iteritems() to items()
-    - changed the isinstance(v, unicode) to a encoding = 'utf-8' parameter in the codec.open and
-    - modified some of the previous codes imports and flow to accomadate a script call versus a function call.
+- changed the open() calls to with open(), 
+- the iteritems() to items()
+- changed the isinstance(v, unicode) to a encoding = 'utf-8' parameter in the codec.open and
+- modified some of the previous codes imports and flow to accomadate a script call versus a function call.
     
-    After completing these steps, the code **no longer is able to run in Python 2.7**. The code does
-    run in Python 3 and the timing have improved significantly.
+After completing these steps, the code **no longer is able to run in Python 2.7**. The code does
+run in Python 3 and the timing have improved significantly.
 
 The remaining items below are from initial completion. 
 
 The **PCook_DW_OpenStreetMaps.html** file contains the write up and answers to the rubric questions.
-    There are active highlighted links to both, Folders and Python Code files references, and all
-      links will open in a new tab/window
-    The functions within the .py files have a comment header ( # **** function_name() ****)
-      to help find/identify the function. In addition the functions contain docstrings.
+There are active highlighted links to both, Folders and Python Code files references, and all links will open in a new tab/window.
+The functions within the .py files have a comment header ( # **** function_name() ****) to help find/identify the function. In addition the functions contain docstrings.
 
-The **PCook_With_Code_DW_OpenStreetMaps.ipynb** file contains the same information as the file above
-    but contains the working code (versus markdown) following the text if testing is needed.
+The **PCook_With_Code_DW_OpenStreetMaps.ipynb** file contains the same information as the file above but contains the working code (versus markdown) following the text if testing is needed.
 
 The **PCook_Markdown_DW_OpenStreetMaps.ipynb** file is the source file of the html file and contains
     the same information with no working code (all Markdown).
