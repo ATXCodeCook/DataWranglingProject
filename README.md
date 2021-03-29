@@ -28,7 +28,7 @@ run in Python 3 and the timing have improved significantly.
 The remaining items below are from initial completion. 
 
 The **PCook_DW_OpenStreetMaps.html** file contains the write up and answers to the rubric questions.
-There are active highlighted links to both, Folders and Python Code files references, and all links will open in a new tab/window.
+~~There are active highlighted links to both, Folders and Python Code files references, and all links will open in a new tab/window.~~ (Will not work with Jeckyll)
 The functions within the .py files have a comment header ( # **** function_name() ****) to help find/identify the function. In addition the functions contain docstrings.
 
 The **PCook_With_Code_DW_OpenStreetMaps.ipynb** file contains the same information as the file above but contains the working code (versus markdown) following the text if testing is needed.
