@@ -18,10 +18,10 @@ All the three audit files in the module folder are scripts with **data\\round_ro
 
 **converted the Python 2 code to Python 3**
 Changes are: 
-    * changed the open() calls to with open(), 
-    * the iteritems() to items()
-    * changed the isinstance(v, unicode) to a encoding = 'utf-8' parameter in the codec.open and
-    * modified some of the previous codes imports and flow to accomadate a script call versus a function call.
+    - changed the open() calls to with open(), 
+    - the iteritems() to items()
+    - changed the isinstance(v, unicode) to a encoding = 'utf-8' parameter in the codec.open and
+    - modified some of the previous codes imports and flow to accomadate a script call versus a function call.
     
     After completing these steps, the code **no longer is able to run in Python 2.7**. The code does
     run in Python 3 and the timing have improved significantly.
