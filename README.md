@@ -37,9 +37,9 @@ The **PCook_Markdown_DW_OpenStreetMaps.ipynb** file is the source file of the ht
     the same information with no working code (all Markdown).
 
 The **data folder** holds the 3 osm (xml) files used:
-*~~round_rock.xml              Complete file 220 MB~~ (must download due to size)
-*round_rock_sample.xml       ~10 MB sample file
-*test.xml                    Used for testing specific problem nodes and schema
+- ~~round_rock.xml              Complete file 220 MB~~ (must download due to size)
+- round_rock_sample.xml       ~10 MB sample file
+- test.xml                    Used for testing specific problem nodes and schema
 
 The **Images folder** holds 1 image used in the report.
 
