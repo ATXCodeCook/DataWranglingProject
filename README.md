@@ -48,7 +48,7 @@ The **modules** hold all the .py files for the functions used.
     The update_values.py file is used for flow control for the cleaning functions.
         example (street key; value goes to --> update_streets.py)
 
-The **sql folder** holds the database file (Round_RockDb.db) and all the csv files.
+The **sql folder** holds the ~~database file (Round_RockDb.db)~~ and all the ~~csv files~~ (**Must run notebook or scripts to generate due to size**).
     There is a copy of the create_table_schema in this folder for convenience.
 
 **data.py** holds the modified data.py code (conversion to Python 3) with cleaning steps added.
