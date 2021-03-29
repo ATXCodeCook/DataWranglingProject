@@ -23,7 +23,7 @@ Changes are:
     * changed the isinstance(v, unicode) to a encoding = 'utf-8' parameter in the codec.open and
     * modified some of the previous codes imports and flow to accomadate a script call versus a function call.
     
-    After completing these steps, code **no longer able to run in Python 2.7**. The code does
+    After completing these steps, the code **no longer is able to run in Python 2.7**. The code does
     run in Python 3 and the timing have improved significantly.
 
 The remaining items below are from initial completion. 
